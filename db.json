@@ -18,7 +18,7 @@
       "id": 3,
       "text": "Avangers Infinity War",
       "day": "May 5th 10:45am",
-      "tickets": 0,
+      "tickets": 8,
       "reminder": true
     },
     {
@@ -29,32 +29,11 @@
       "id": 4
     },
     {
-      "text": "infinity war",
-      "day": "july 12",
-      "tickets": 5,
-      "reminder": true,
-      "id": 6
-    },
-    {
-      "text": "Naruto road to boruto",
-      "day": "Sunday Night",
-      "tickets": 4,
-      "reminder": false,
-      "id": 7
-    },
-    {
       "text": "Watch Naruto",
       "day": "Sunday",
       "tickets": 0,
       "reminder": false,
       "id": 8
-    },
-    {
-      "text": "Star wars",
-      "day": "Sunday Night",
-      "tickets": 0,
-      "reminder": false,
-      "id": 9
     }
   ]
 }
