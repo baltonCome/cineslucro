@@ -1,15 +1,19 @@
 <form *ngIf="showAddTask" class="add-form" (ngSubmit)="onSubmit()">
     <div class="form-control">
-        <label for="text">Task</label>
-        <input type="text" name="text" [(ngModel)]="text" id="text" placeholder="Add Task"/> 
+        <label for="text">Movie</label>
+        <input type="text" name="text" [(ngModel)]="text" id="text" placeholder="Add Event"/> 
     </div>
     <div class="form-control">
         <label for="day">Day & Time</label>
         <input type="text" name="day" [(ngModel)]="day" id="day" placeholder="Add date & time" />
     </div>
+    <div class="form-control">
+        <label for="tickets">Tickets</label>
+        <input type="number" name="tickets" [(ngModel)]="tickets" id="tickets" placeholder="Amount of tickets" />
+    </div>
     <div class="form-control form-control-check">
-        <label for="reminder">Set reminder</label>
+        <label for="reminder">Reminder</label>
         <input type="checkbox" name="reminder" [(ngModel)]="reminder" id="reminder"/>
     </div>
-    <input type="submit" value="Save Task" class="btn btn-block" >
+    <input type="submit" value="Add Movie" class="btn btn-block" >
 </form>

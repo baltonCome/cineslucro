@@ -11,7 +11,7 @@ import { Router } from '@angular/router';
 
 export class HeaderComponent implements OnInit {
 
-  title : string = 'Tasks-App';
+  title : string = 'Cineslucro Software';
   showAddTask: boolean = false;
   subscription!: Subscription;
 

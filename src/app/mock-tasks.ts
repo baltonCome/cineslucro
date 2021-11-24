@@ -1,6 +1,6 @@
 import {Task} from './Task'
 
-export const TASKS: Task[]= [
+/*export const TASKS: Task[]= [
     {
         id: 1,
         text: 'Appointment',
@@ -19,4 +19,4 @@ export const TASKS: Task[]= [
         day: 'July 16th at 12:07am',
         reminder: false
     }
-];
+];*/

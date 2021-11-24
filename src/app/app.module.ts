@@ -13,10 +13,14 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { AddTaskComponent } from './components/add-task/add-task.component';
 import { AboutComponent } from './components/pages/about/about.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { LoginComponent } from './components/pages/login/login.component';
+import { RegisterComponent } from './components/pages/register/register.component';
 
 const appRoutes: Routes = [
   {path: '', component:TasksComponent},
-  {path: 'about', component:AboutComponent}
+  {path: 'about', component:AboutComponent},
+  {path: 'login', component:LoginComponent},
+  {path: 'register', component:RegisterComponent},
 ]
 
 @NgModule({
@@ -28,7 +32,9 @@ const appRoutes: Routes = [
     TaskItemComponent,
     AddTaskComponent,
     AboutComponent,
-    FooterComponent
+    FooterComponent,
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,

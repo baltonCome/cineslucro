@@ -15,14 +15,15 @@ body {
   margin: 30px auto;
   overflow: auto;
   min-height: 300px;
-  border: 1px solid steelblue;
-  padding: 30px;
+  border: 1px solid gray;
+  padding: 15px;
   border-radius: 5px;
+  background-color: lightslategray;
 }
 .btn {
   display: inline-block;
-  background: #000;
-  color: #fff;
+  background: darkmagenta;
+  color: burlywood;
   border: none;
   padding: 10px 20px;
   margin: 5px;
@@ -58,6 +59,7 @@ body {
   margin: 5px;
   padding: 3px 7px;
   font-size: 17px;
+  border-radius: 5px;
 }
 
 .form-control-check {

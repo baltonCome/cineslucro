@@ -1,8 +1,9 @@
-<div [ngClass]="{ reminder : task.reminder }" class="task" (dblclick)="onToggle(task)">
+<div [ngClass]="{ reminder : task.tickets == 0 }" class="task" (dblclick)="onToggle(task)">
     <h3>
-        {{ task.text }} 
-        <fa-icon (click)="onDelete(task)" [ngStyle]="{color: 'red'}" [icon]="faTimes">  
+        Title: {{ task.text }} 
+        <fa-icon (click)="onDelete(task)" [ngStyle]="{color: 'blue'}" [icon]="faTimes">  
         </fa-icon> 
     </h3>
-    <p>{{ task.day }}</p>
+    <p> Date: {{ task.day }}</p>
+    <small>Tickets: {{ task.tickets != 0 ? task.tickets : task.tickets +" -- Esgotado" }} </small>
 </div>
